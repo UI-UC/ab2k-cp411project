@@ -1,0 +1,45 @@
+# Object files
+*.o
+*.lo
+*.obj
+
+# Compiled libraries
+*.so
+*.dll
+*.dylib
+*.a
+*.la
+*.lib
+
+# Executables
+*.exe
+*.out
+
+# Byte code
+*.pyc
+
+# Editors & Tools
+.idea/
+*.sublime-*
+*~
+
+# Folders
+.DS_Store
+/build*
+/gtest/**
+/gmock/**
+/harness/**
+/doc/html
+/doc/latex
+/mysql-server
+
+# Python
+*__pycache__*
+MANIFEST
+
+# Misc.
+commit.txt
+*.patch
+*.diff
+local.cmake
+packages/rpm-*/*.spec
