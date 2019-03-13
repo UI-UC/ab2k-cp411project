@@ -1,0 +1,25 @@
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="content/css/app.css" >
+    </head>
+    <body>
+        <img src="content/images/beers.jpg" />
+        <table width='50%'>
+            <thead>
+                <td>Beer Name</td>
+                <td>Brewer Name</td>
+                <td>Alcohol</td>
+            </thead>
+            <tbody>
+                    {% for emp in beers %}
+                    <tr>
+                        <td>{{emp['name']}}</td>
+                        <td>{{emp['brewer']}}</td>
+                        <td>{{emp['alcohol']}}</td>
+                    </tr>
+                    {% endfor %}
+            </tbody>            
+        </table>
+
+    </body>
+</html>

@@ -1,0 +1,16 @@
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+table {
+    border: 1px solid lightgray;
+    padding: 0px;
+}
+
+thead{
+    background-color: lightgray
+}
+
+td {
+    padding:5px;
+}
